@@ -1,10 +1,10 @@
 # Turtle Race
 
-This is a simple game built with Python on top of the Turtle module. The game is actually a race between 5 turtles!
+This is a simple game built with Python on top of the Turtle module. The game is actually a race between 6 turtles!
 
 ## How it works
 
-The game is a race between 5 turtles, and one of these turtles is yours, which you choose before the race begins. The turtles move forward in random increments, and the first one to reach the finish line is the winner.
+The game is a race between 6 turtles, and one of these turtles is yours, which you choose before the race begins. The turtles move forward in random increments, and the first one to reach the finish line is the winner.
 
 **The goal is to win this completely random race.**
 
