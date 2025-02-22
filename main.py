@@ -19,7 +19,7 @@ while True:
         user_bet = user_bet.lower()
         if user_bet not in colors:
             raise ValueError("Invalid color. Please choose from red, orange, yellow, green, blue, or purple.")
-        break  # Exit loop if input is valid
+        break 
     except ValueError as error:
         turtle_screen.textinput(title="Invalid Input", prompt=str(error) + "\nChoose OK and try again:")
 if user_bet:
@@ -46,7 +46,5 @@ while is_race_on:
             break
         random_distance = R.randint(0, 10)
         turtle.forward(random_distance)
-    
-    
 
 turtle_screen.exitonclick()
